@@ -1,0 +1,108 @@
+/* Réinitialisation et styles de base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0066CC;
+    text-align: center;
+}
+
+/* Sélecteur de profil */
+.profile-selector {
+    margin-bottom: 20px;
+}
+
+.profile-selector select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Champ de texte */
+.text-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Boutons */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.actions button {
+    padding: 10px 15px;
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions button:hover {
+    background-color: #0052a3;
+}
+
+/* Zone de sortie */
+.output-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: white;
+}
+
+/* Styles pour le surlignage audio */
+.highlight {
+    background-color: #e6f2ff; /* Bleu clair pour le surlignage */
+    transition: background-color 0.3s;
+}
+
+/* Styles pour les flashcards */
+.flashcard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.flashcard-question {
+    font-weight: bold;
+    color: #0066CC;
+}
+
+.flashcard-answer {
+    display: none;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Styles pour le minuteur */
+.timer {
+    font-size: 24px;
+    color: #00AA44;
+    margin: 10px 0;
+}
