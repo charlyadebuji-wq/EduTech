@@ -1,4 +1,4 @@
-/ Attendre que le DOM soit chargé
+// Attendre que le DOM soit chargé
 document.addEventListener('DOMContentLoaded', function() {
     // Récupérer les éléments du DOM
     const courseText = document.getElementById('course-text');
