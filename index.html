@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outil Pédagogique TDAH/TDA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Outil d'Adaptation Pédagogique</h1>
+
+        <!-- Sélection du profil -->
+        <div class="profile-selector">
+            <label for="profile">Profil :</label>
+            <select id="profile">
+                <option value="jaden">Jaden (TDAH, 9 ans)</option>
+                <option value="jibs">Jibs (TDA, 17 ans)</option>
+            </select>
+        </div>
+
+        <!-- Champ pour coller le texte -->
+        <div class="text-input">
+            <label for="course-text">Collez votre texte de cours ici :</label>
+            <textarea id="course-text" rows="10" placeholder="Ex: Les volcans sont des montagnes qui crachent de la lave..."></textarea>
+        </div>
+
+        <!-- Boutons d'action -->
+        <div class="actions">
+            <button id="generate-summary">Générer un Résumé</button>
+            <button id="read-aloud">Lire à voix haute</button>
+            <button id="generate-flashcards">Générer des Flashcards</button>
+            <button id="generate-quiz">Générer un QCM</button>
+            <button id="start-checklist">Démarrer une Checklist</button>
+        </div>
+
+        <!-- Zone d'affichage des résultats -->
+        <div class="output">
+            <div id="summary-output" class="output-section"></div>
+            <div id="audio-output" class="output-section"></div>
+            <div id="flashcards-output" class="output-section"></div>
+            <div id="quiz-output" class="output-section"></div>
+            <div id="checklist-output" class="output-section"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
